@@ -1,7 +1,10 @@
 .page {
   min-width: 1100px;
   max-width: 1600px;
-  margin: autp;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
   font-family: "Inter", Arial, sans-serif;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 16px;
