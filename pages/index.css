@@ -6,3 +6,128 @@
   line-height: 20px;
   margin: 0 auto;
 }
+span {
+  display: block;
+}
+.header {
+  background-color: #ffffff;
+  background-size: cover;
+  background-image: url(file:///C:/Users/Edgar/Desktop/Projects/se_project_coffeeshop/images/background_header.svg);
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding-top: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  position: relative;
+  box-sizing: border-box;
+}
+.header__title {
+  max-width: 729px;
+  padding-top: 30px;
+  padding-left: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+}
+.header_span-accent {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+.header__description {
+  top: 28px;
+  padding-left: 80px;
+}
+
+.header__image {
+  max-width: 646px;
+  position: absolute;
+  top: 124px;
+  right: 5px;
+}
+.header__description {
+  max-width: 683px;
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+}
+.header__paragraph {
+  display: flex;
+  flex-direction: column;
+  bottom: 40px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.header__hours {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  left: 80px;
+  bottom: 40px;
+  position: absolute;
+}
+.header__footer {
+  display: flex;
+  bottom: 40px;
+  left: 0px;
+  box-sizing: border-box;
+  position: absolute;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px 80px 0;
+}
+.header__address {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  right: 80px;
+  bottom: 40px;
+  position: absolute;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.nav__links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.nav_link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.logo {
+  width: 125px;
+  height: 142px;
+  top: 30px;
+  left: 30px;
+}
