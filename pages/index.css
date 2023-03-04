@@ -12,7 +12,7 @@ span {
 .header {
   background-color: #ffffff;
   background-size: cover;
-  background-image: url(file:///C:/Users/Edgar/Desktop/Projects/se_project_coffeeshop/images/background_header.svg);
+  background-image: url(../images/background_header.svg);
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
@@ -130,4 +130,61 @@ span {
   height: 142px;
   top: 30px;
   left: 30px;
+}
+.recipes {
+  background-color: #0a2750;
+  background-image: url(../images/background_recipes.svg);
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 215px;
+  padding-top: 100px;
+}
+.recipes__title {
+  padding-left: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #ffffff;
+  max-width: 580px;
+}
+.recipes__subtitle {
+  top: 24px;
+  padding-left: 80px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  max-width: 438px;
+}
+.recipes__videos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  padding-top: 80px;
+  padding-right: 40px;
+}
+.recipes__iframe {
+  padding-right: 40px;
+}
+.recipes__video-caption {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
+.recipes__video-caption-text {
+  padding-right: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
 }
