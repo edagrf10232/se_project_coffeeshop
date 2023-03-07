@@ -112,17 +112,18 @@
           <div class="reservation__form">
             <form class="reservation__form">
               <fieldset class="form__fieldset">
-                <label for="name" class="form__label">Name</label>
+                <label for="name" class="form__label">Name *</label>
                 <input
                   type="text"
                   class="form__input"
                   id="name"
                   name="name"
                   placeholder="Name Surname"
+                  required
                 />
               </fieldset>
               <fieldset class="form__fieldset">
-                <label for="number" class="form__label">Number of guests</label>
+                <label for="number" class="form__label">Number of guests *</label>
                 <input
                   type="number"
                   class="form__input"
@@ -131,39 +132,45 @@
                   id="number"
                   name="name"
                   placeholder="1-8"
+                  required
                 />
               </fieldset>
               <fieldset class="form__fieldset">
-                <label for="date" class="form__label">Date and time</label>
+                <label for="date" class="form__label">Date and time *</label>
                 <input
                   type="datetime-local"
                   class="form__input"
                   id="date"
                   name="date"
                   placeholder="mm/dd/yyyy --:-- --"
+                  required
                 />
               </fieldset>
               <fieldset class="form__fieldset">
-                <label for="email" class="form__label">Your email</label>
+                <label for="email" class="form__label">Your email *</label>
                 <input
                   type="email"
                   class="form__input"
                   id="email"
                   name="email"
                   placeholder="email@email.com"
+                  required
                 />
               </fieldset>
-              <button type="submit" class="form__button">Book a table</button>
               <fieldset class="form__fieldset">
+              <button type="submit" class="form__button">Book a table</button>
+              </fieldset>
+              <fieldset class="form__fieldset form__checkbox-container">
                 <input
                   type="checkbox"
-                  class="form__input-checkbox"
+                  class="form__checkbox"
                   name="agree"
                   id="agree"
                 />
-                <label for="agree" class="form__label-checkbox"
+                <label for="agree" class="form__label"
                   >I agree with the terms of use</label
                 >
+              </fieldset>
               </fieldset>
             </form>
           </div>
