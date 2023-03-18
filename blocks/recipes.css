@@ -5,8 +5,8 @@
   background-position: center;
   background-size: cover;
   color: #fff;
-  padding-top: 200px;
-  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 215px;
 }
 
 .recipes__title {
@@ -24,7 +24,7 @@
 .recipes__subtitle {
   max-width: 438px;
   margin: 0 0 80px 80px;
-  font-family: "Noto Serif", "Time New Roman", sans-serif;
+  font-family: "Noto Serif", "Time New Roman", serif;
   font-size: 20px;
   line-height: 30px;
 }
@@ -52,4 +52,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+}
+.recipes__video-caption-text {
+  margin: 24px 0 0 0;
 }
