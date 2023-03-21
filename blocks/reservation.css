@@ -4,7 +4,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 100px;
   padding-bottom: 120px;
 }
 
@@ -16,8 +15,10 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0;
+  padding-top: 100px;
+  padding-bottom: 0px;
 }
 
 .reservation__form {
-  margin-top: 112px;
+  margin-top: 80px;
 }
